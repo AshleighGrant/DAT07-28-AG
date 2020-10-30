@@ -23,6 +23,8 @@ st.title("Our First Data Application")
 
 df = pd.read_csv("https://raw.githubusercontent.com/JonathanBechtel/dat-data-demo/master/iowa_train2.csv")
 
+
+
 page = st.sidebar.radio('Section',
                         ['Data Explorer', 'Model Explorer', 'Causal Impact'])
 
